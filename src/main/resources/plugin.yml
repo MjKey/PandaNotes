@@ -1,0 +1,11 @@
+name: PandaNotes
+version: '1.0-SNAPSHOT'
+main: ru.mjkey.pandaNotes.PandaNotes
+api-version: '1.21'
+prefix: Notes
+authors: [ MjKey ]
+
+commands:
+  note:
+    description: Создать записку с текстом
+    usage: /note <текст>
